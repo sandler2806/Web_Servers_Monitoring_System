@@ -37,7 +37,7 @@ class WebServersMonitoring:
             connection = mysql.connector.connect(host='localhost',
                                                  database='Monolith',
                                                  user='root',
-                                                 password='Yuvali12')  # change later!!!!!!!!!!!
+                                                 password='root')
             cursor = connection.cursor()
             cursor.execute(query)
 
